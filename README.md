@@ -1,8 +1,7 @@
 ##  Bivariate Normal Explorer 
-###         by 
-###   Rafael Espericueta 
-###         for 
-### Developing Data Products (a Coursera course)
+###  by Rafael Espericueta 
+### for Developing Data Products 
+### (Coursera Data Science Specialization)
 
 This shiny application allows one to explore the bivariate normal distribution.
 The user may specify the number of samples from a bivariate normal distribution with standard deviations sx and sy, and with correlation coefficient r.  A sample of variables with this distribution is displayed, along with a regression line fit to that data.
