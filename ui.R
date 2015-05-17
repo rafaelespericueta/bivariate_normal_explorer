@@ -27,14 +27,14 @@ fluidPage(
       helpText("Use the above sliders to set the number of samples N, the standard deviations Sx and Sy, and the correlation of x and y. "),
       helpText("The result: a plot of a bivariate normal sample chosen from the specified distribution."),
       hr(),
-      helpText("Github Repository:"),
-      helpText("https://github.com/rafaelespericueta/bivariate_normal_explorer"),
+    
+      helpText(a("Github Repository", href="https://github.com/rafaelespericueta/bivariate_normal_explorer")),
       hr()
     ),
     
     # Show Bivariate Distribution
     mainPanel(
-      plotOutput("plot")
+      plotOutput("plot",  width = "100%")
     )
   )
 )

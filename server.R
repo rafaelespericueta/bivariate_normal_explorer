@@ -1,8 +1,10 @@
 #
 # server.R (for a shiny app)
 #
-# Developing Data Products Course Project
-# by Rafael Espericueta
+# Developing Data Products
+#     Course Project
+#          by 
+#   Rafael Espericueta
 
 library(MASS)
 library(ggplot2)
@@ -38,10 +40,11 @@ function(input, output, session) {
       geom_point(colour = "skyblue", size = 5) + 
       geom_point(alpha = .1) +
       xlim(xmin, xmax) + ylim(ymin, ymax) +
+      coord_fixed() +            # Preserve aspect ratio
       geom_smooth(method = lm,   # Add linear regression line
                   color = 'red')
     print(p)
-  })
+  }, height = 700, width = 700)
 }
 
 
