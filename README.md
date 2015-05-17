@@ -1,5 +1,7 @@
-## Bivariate Normal Explorer 
-###  by Rafael Espericueta 
+##  Bivariate Normal Explorer 
+###         by 
+###   Rafael Espericueta 
+###         for 
 ### Developing Data Products (a Coursera course)
 
 This shiny application allows one to explore the bivariate normal distribution.
